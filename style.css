@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.png"); 
     background-size: 280px 280px;
 }
 
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(90, 83, 65 , 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,21 +771,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #833920;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background:#ecc3b0;
+    color: #833920!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #FCEDFC!important;
+    color: #742731!important;
 }
 
 .ltc-white {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,36 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* Reworking of the website SEO, speed and acessibility */
+
+img {
+    margin: auto;
+}
+
+.text-citation {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-citation-fourchettes {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.phrase-contact {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-atomic-tangerine-inverted {
+    background:#833920;
+    color: white!important;
+}
+
+.btn-atomic-tangerine-inverted:hover {
+    background: #79145f!important;
+    color: #FCEDFC!important;
 }
