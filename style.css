@@ -584,6 +584,8 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -659,7 +661,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 36px;
 }
 
 .hero-bloc-text-sub {
@@ -793,7 +795,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
@@ -1050,6 +1052,7 @@ img {
 .text-citation {
     font-weight: bold;
     font-size: 20px;
+    font-style: italic;
 }
 
 .text-citation-fourchettes {
@@ -1059,8 +1062,8 @@ img {
 
 .phrase-contact {
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
 }
 
 .btn-atomic-tangerine-inverted {
@@ -1072,3 +1075,47 @@ img {
     background: #79145f!important;
     color: #FCEDFC!important;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.transition-link {
+    transition: all 0.4s ease;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.transition-link-nav {
+    transition: all 0.4s ease;
+}
+
+.transition-link-nav:hover {
+    box-shadow: inset 0px -2px 0px 0px #833920;
+   
+}
+
+.transition-link:hover {
+    font-size: 20px;
+}
+
+@media (max-width: 576px) {
+.lightbox-caption {
+    font-size: 13px;
+ }
+}
+
+@media (max-width: 360px) {
+    .lightbox-caption {
+        font-size: 12px;
+     }
+    }
+    
+
+@media (max-width: 280px) {
+    .lightbox-caption {
+        font-size: 11px;
+     }
+    }
+    
