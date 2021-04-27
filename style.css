@@ -1125,3 +1125,8 @@ img {
          margin-bottom: -35px;
      }
     }
+
+    a:focus, .btn:focus {
+        outline: 3px dashed black!important;
+        transition: none;
+    }
